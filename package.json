@@ -34,5 +34,13 @@
     "atom-workspace": [
       "atom-mac-terminal:open"
     ]
+  },
+  "configSchema": {
+    "terminal": {
+      "title": "Terminal",
+      "type": "string",
+      "default": "Terminal.app",
+      "enum": ["Terminal.app", "iTerm2"]
+    }
   }
 }
